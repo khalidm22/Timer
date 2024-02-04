@@ -1,0 +1,11 @@
+import time
+
+timer = input("Please set a time in seconds: ")
+
+number = int(timer)
+
+for i in range(number, 0, -1): 
+    print(i)
+    time.sleep(1)
+
+print("TIMER IS UP!!!")
