@@ -4,7 +4,7 @@ timer = input("Please set a time in seconds: ")
 
 number = int(timer)
 
-for i in range(number, 0, -1): 
+for i in range(number, 0, -1): #the -1 isnt a value, rather it "steps" and reverses the range between number and 0
     print(i)
     time.sleep(1)
 
